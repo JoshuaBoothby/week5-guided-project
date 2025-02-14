@@ -11,19 +11,68 @@
     <meta name="keywords" content="HTML, CSS, Week 2, Day 5, Guided Project" />
 
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <title>Week 2 Day 5 assignment Guided Project</title>
   </head>
   <body>
     <header>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#contact-form">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <section class="hero">
+        <h1>Big Hero Section Main heading</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos qui,
+          nemo non itaque veritatis neque odio similique. Officiis voluptatem
+          assumenda modi, maiores veniam iusto odio? Nostrum ipsa unde rem
+          minima!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Minus, rerum? Perspiciatis, ratione dolorum. Iure adipisci repellat
+          odio quasi? Officia amet, sit velit excepturi sequi repellendus dicta
+          magnam necessitatibus culpa illo!
+        </p>
+        <button type="button" aria-label="Learn More">Learn More</button>
+      </section>
+      <section id="About" class="content">
+        <h2>Content Section Subheading</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos qui,
+          nemo non itaque veritatis neque odio similique. Officiis voluptatem
+          assumenda modi, maiores veniam iusto odio? Nostrum ipsa unde rem
+          minima!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Dolorem voluptatum repellendus sint fugiat pariatur velit labore
+          exercitationem, laboriosam culpa libero praesentium voluptatibus vel?
+          Dicta rem voluptatum est esse molestias magnam.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos qui,
+          nemo non itaque veritatis neque odio similique. Officiis voluptatem
+          assumenda modi, maiores veniam iusto odio? Nostrum ipsa unde rem
+          minima!Lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Non voluptatum tempore fuga deserunt magnam a vero ab quo nihil,
+          exercitationem labore quaerat ipsa esse voluptatibus ut sunt vel
+          neque! Veniam? Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Dignissimos nobis delectus ut cum velit, id facilis fuga. Dolor
+          veniam alias error, architecto vero accusamus earum, possimus, sed nam
+          assumenda rerum.
+        </p>
+      </section>
+      <div>
+        <form id="contact-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" aria-label="Name" />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" aria-label="Email" />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" aria-label="Message"></textarea>
+          <button type="submit" aria-label="Submit">Submit</button>
+        </form>
+      </div>
+    </main>
+    <footer><p>&copy; 2025 Joshua Boothby</p></footer>
   </body>
 </html>
