@@ -33,3 +33,55 @@ form button{
 form button:hover{
     background-color: lightgreen;
 }
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightskyblue;
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 50%;
+}
+
+.hero{
+    display: flex-column;
+    justify-content: center;
+    
+    height: 100vh;
+    background-color: lightgoldenrodyellow;
+    box-shadow: inset 0 0 10px black;
+}
+.hero h1{
+    font-size: 3rem;
+    
+    text-align: center;
+}
+.hero p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.hero button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: red;
+    box-shadow: inset 0 0 5px black;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 100%;
+    
+}
+.hero button:hover{
+    background-color: lightgreen;
+}
