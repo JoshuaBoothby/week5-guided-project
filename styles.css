@@ -85,3 +85,22 @@ nav ul{
 .hero button:hover{
     background-color: lightgreen;
 }
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightcoral;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px black;
+}
+div h2{
+    font-size: 2rem;
+}
+
+main{
+    background-color: lightcyan;
+}
