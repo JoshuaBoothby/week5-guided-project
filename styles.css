@@ -1,0 +1,35 @@
+form{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgrey;
+    /* love this box shadow because it looks so blown owt and sun bleached */
+    box-shadow: inset 0 0 10px lightpink;
+    margin-top: 50px;
+    margin-left: 5%;
+    padding: 20px;
+    width: 50%;
+}
+form input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 50%;
+}
+form button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightblue;
+    box-shadow: inset 0 0 5px black;
+    border: 1px solid black;
+    cursor: pointer;
+    
+}
+form button:hover{
+    background-color: lightgreen;
+}
