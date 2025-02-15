@@ -6,8 +6,8 @@ form{
     align-items: center;
     justify-content: center;
     background-color: lightgrey;
-    /* love this box shadow because it looks so blown owt and sun bleached */
-    box-shadow: inset 0 0 10px lightpink;
+    /* love this box shadow because it looks so blown out and sun bleached */
+    box-shadow: inset 0 0 10px rgba(255, 182, 193, 0.89);
     margin-top: 50px;
     margin-left: 5%;
     padding: 20px;
@@ -60,9 +60,9 @@ nav ul{
 
 .hero{
     justify-content: center;
-    
+ 
     height: 100vh;
-    background-color: lightgoldenrodyellow;
+    background-color: rgba(250, 250, 210, 0.918);
     box-shadow: inset 0 0 10px black;
     margin-top: 56px;
 }
@@ -80,7 +80,7 @@ nav ul{
     margin-top: 20px;
     padding: 10px;
     border-radius: 50px;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.76);
     box-shadow: inset 0 0 5px black;
     border: 1px solid black;
     cursor: pointer;
@@ -96,7 +96,7 @@ div{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: lightcoral;
+    background-color: rgba(240, 128, 128, 0.911);
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
@@ -114,7 +114,7 @@ main{
     background-color: lightcyan;
 }
 footer{
-    background-color: darkslategray;
+    background-color: rgba(47, 79, 79, 0.856);
 }
 footer p{
     color: white;
